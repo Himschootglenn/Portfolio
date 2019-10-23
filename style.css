@@ -97,7 +97,7 @@ body {
     justify-content: center;
 }
 
-.list h2{
+.list h2 {
     text-decoration: underline;
     text-decoration-style: dotted;
 }
@@ -107,8 +107,7 @@ body {
     list-style: none;
     padding-top: 2rem;
     font-size: 1rem;
-    
-
+    font-style: italic;
 }
 
 #skills {
