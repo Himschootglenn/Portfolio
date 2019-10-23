@@ -106,7 +106,7 @@ body {
 .list ul li {
     list-style: none;
     padding-top: 2rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-style: italic;
 }
 
@@ -118,18 +118,26 @@ body {
     height: 100vh;
 }
 
+#skills ul {
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: center;
+    padding-top: 300px;
+}
+
 
 #contact {
     width: 100%;
-    height: 30vh;
 }
 
 .icon {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    padding: 5rem;
     font-size: 5rem;
-    color: blue;
     background-color: black;
+}
+
+.icon a {
+    color: blue;
 }
