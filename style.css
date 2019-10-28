@@ -72,16 +72,10 @@ body {
 
 /* section background or Images */
 #home {
-
     display: flex;
     flex-direction: column;
     text-align: center;
     min-height: 100vh;
-}
-
-#home .video {
-    background-size: cover;
-    background-position: center;
 
 }
 
@@ -91,8 +85,8 @@ body {
     background-position: center;
     min-height: 100vh;
     display: flex;
-    align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .list {
@@ -131,8 +125,9 @@ body {
     font-style: italic;
     text-align: center;
     list-style: none;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
 }
-
 
 #contact {
     width: 100%;
