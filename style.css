@@ -73,6 +73,7 @@ body {
 
 /* section background or Images */
 #home {
+    background-image: url(./img/home.jpg);
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -109,7 +110,7 @@ body {
 }
 
 #skills {
-    background-image: url(./skills.jpg);
+    background-image: url(./img/skills.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -130,6 +131,7 @@ body {
 }
 
 #contact {
+    background-image: url(./img/contact.jpg);
     width: 100%;
 }
 
