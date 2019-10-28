@@ -16,6 +16,7 @@ body {
     /* Css Smooth Scroll */
     overflow-y: scroll;
     scroll-behavior: smooth;
+    width: 100vw;
 }
 
 .navbar {
@@ -76,7 +77,6 @@ body {
     flex-direction: column;
     text-align: center;
     min-height: 100vh;
-
 }
 
 #about {
